@@ -1,0 +1,22 @@
+{
+  "content_scripts": [
+    {
+      "js": [
+        "pagerank.js"
+      ],
+      "matches": [
+        "http://*/*"
+      ]
+    }
+  ], 
+  "description": "PageRank bar for chromium", 
+  "id": "1B64446C65037A629119D1768D32404298BB2DD7", 
+  "name": "PageRank toolstrip", 
+  "permissions": [
+    "http://toolbarqueries.google.com/"
+  ], 
+  "toolstrips": [
+    "toolstrip.html"
+  ], 
+  "version": "0.1"
+}
